@@ -1,19 +1,10 @@
-import { useState } from 'react'
+import { Widget } from "./components/Widget";
 
 
-function App() {
-  const [count, setCount] = useState(0)
+export function App() {
+  
 
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-      <button onClick={() => setCount(0)}>Reset</button>
-    </div>
-  )
+return <Widget />
+
+
 }
-
-export default App
- 
