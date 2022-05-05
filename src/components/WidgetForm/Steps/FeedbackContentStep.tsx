@@ -15,7 +15,7 @@ export function FeedbackContentStep({
 
   return (
     <>
-      <header>
+      <header className="flex justify-center gap-5">
         <button
           onClick={onFeedbackRestart}
           type="button"
@@ -39,7 +39,7 @@ export function FeedbackContentStep({
                   <textarea
                       placeholder="Deixe seu feedback"
                       className="min-w-[304px] w-full h-[112px] text-sm placeholder-zinc-400  text-zinc-100 border-zinc-600
-                      bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 resize-none" 
+                      bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none resize-none scrollbar  scrollbar-thumb-zinc-700 scrollbar-track-transparent scrollbar-thin" 
                     
                   
                   />
