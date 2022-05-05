@@ -7,7 +7,7 @@ export default function CloseButton() {
       className="top-5 right-5 absolute text-zinc-400 hover:text-zinc-100"
       title="Fechar formulário"
     >
-      <X />
+      <X weight="bold" className="w-4 h-4" />
     </Popover.Button>
   );
 }
